@@ -25,7 +25,11 @@ echo " "
 
 nvidia-smi
 
-conda activate test_build_2point2
+conda activate test_build_2point3
+
+echo "==============================="
+conda config --show channels
+echo "==============================="
 
 python test.py
 
