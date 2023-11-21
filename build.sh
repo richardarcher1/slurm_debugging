@@ -35,3 +35,5 @@ conda install -y fire
 conda install -y fairscale
 
 pip install comet_ml
+
+conda install -y sentencepiece
